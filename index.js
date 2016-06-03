@@ -79,9 +79,9 @@ function sendGenericMessage(sender) {
 			"payload": {
 				"template_type": "generic",
 				"elements": [{
-					"title": "First card",
-					"subtitle": "Element #1 of an hscroll",
-					"image_url": "http://messengerdemo.parseapp.com/img/rift.png",
+					"title": "Art&Design",
+					"subtitle": "Areas of Interest",
+					"image_url": "https://raw.githubusercontent.com/jennyzzz00/hello-world/master/ArtDesign.png",
 					"buttons": [{
 						"type": "web_url",
 						"url": "https://www.messenger.com",
@@ -92,9 +92,9 @@ function sendGenericMessage(sender) {
 						"payload": "Payload for first element in a generic bubble",
 					}],
 				}, {
-					"title": "Second card",
-					"subtitle": "Element #2 of an hscroll",
-					"image_url": "http://messengerdemo.parseapp.com/img/gearvr.png",
+					"title": "Business",
+					"subtitle": "Areas of Interest",
+					"image_url": "https://raw.githubusercontent.com/jennyzzz00/hello-world/master/Business.png",
 					"buttons": [{
 						"type": "postback",
 						"title": "Postback",
