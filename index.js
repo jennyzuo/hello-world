@@ -42,6 +42,18 @@ app.post('/webhook/', function (req, res) {
 				sendTextMessage(sender, "How can I help you?")
 				continue
 			}
+		        if (text === 'Thanks') {
+				sendTextMessage(sender, "You're welcome! Would you like our agent contact you to better assist you?")
+				continue
+			}
+			 if (text === 'Financial aid') {
+				sendTextMessage(sender, "Receive up to $5,775 in Federal Pell Grants, if you qualify")
+				continue
+			}
+			 if (text === 'Call center hours') {
+				sendTextMessage(sender, "Our agent will call you within 9am EST to 5pm EST hours")
+				continue
+			}
 			sendTextMessage(sender, "Text received, echo: " + text.substring(0, 200))
 		}
 		if (event.postback) {
